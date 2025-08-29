@@ -1,9 +1,15 @@
 {
-  "name": "bajaj-bfhl",
+  "name": "bajaj-bfhl-api",
   "version": "1.0.0",
+  "description": "my bajaj test api project",
   "main": "index.js",
-  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "yashaswini",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.18.2"
   }
 }
